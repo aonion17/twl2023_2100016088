@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form h2 {
+  margin-top: 0;
+}
+
+.form input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.form p {
+  margin: 10px 0;
+}
+
+.form button[type="submit"] {
+  background-color: #008CBA;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.form button[type="submit"]:hover {
+  background-color: #005580;
+}
+
+.form .success-message {
+  color: green;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.upload-container {
+  display: flex;
+  justify-content: center;
+}
